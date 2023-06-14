@@ -1,0 +1,15 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: web_development
+  pool: 5
+  username: myapp
+  password: pguserpwd
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: web_test
+  pool: 5
+  username: myapp
+  password: pguserpwd
